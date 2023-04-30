@@ -13,7 +13,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Table(name = "books")
+@Table(name = "authors")
 @Entity
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Builder
