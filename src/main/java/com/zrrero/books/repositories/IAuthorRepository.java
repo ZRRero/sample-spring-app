@@ -7,5 +7,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import java.util.UUID;
 
 @RepositoryRestResource(collectionResourceRel = "authors", path = "authors")
-public interface IAuthorRepository extends PagingAndSortingRepository<UUID, Author> {
+public interface IAuthorRepository extends PagingAndSortingRepository<Author, UUID> {
 }

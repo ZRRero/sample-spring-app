@@ -20,7 +20,7 @@ import java.util.UUID;
 public class Book {
     @Column
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     @Column
     private String title;
